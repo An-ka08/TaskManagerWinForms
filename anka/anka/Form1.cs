@@ -22,25 +22,10 @@ namespace anka
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(txtTitle.Text))
-            {
-                MessageBox.Show("Введите название задачи!");
 
 
-            }
-        }
 
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
 
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
         public enum TaskPriority { Low, Medium, High }
         public class MyTask
         {   public string Title { get; set; }
@@ -58,6 +43,29 @@ namespace anka
 
         }
 
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+             
+        }
 
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tasks_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tasks_DrawItem(object sender, DrawItemEventArgs e)
+        {
+
+        }
     }
 }
