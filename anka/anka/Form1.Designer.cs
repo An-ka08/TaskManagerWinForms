@@ -234,6 +234,7 @@
             this.btnSort.TabIndex = 6;
             this.btnSort.Text = "Сортировака";
             this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // groupBox3
             // 
