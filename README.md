@@ -1,4 +1,5 @@
-Описание проекта
+## Описание проекта
+---
 <img width="1319" height="749" alt="image" src="https://github.com/user-attachments/assets/63b9a9f0-bf40-4ae1-a552-687799fd3d91" />
 
 ---
